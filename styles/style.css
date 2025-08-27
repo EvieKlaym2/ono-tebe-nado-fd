@@ -1,6 +1,5 @@
 a,
 p,
-span,
 h1,
 h2,
 h3,
@@ -193,7 +192,6 @@ h6 {
 .lots__card-list-item {
   display: block;
   width: 334px;
-  min-height: 596px;
 }
 
 .card-link {
@@ -214,25 +212,22 @@ h6 {
   justify-content: space-between;
 }
 
+.card_background {
+  background-repeat: no-repeat ;
+  background-size: cover ;
+  background-position: center ;
+}
+
 .card_type_film {
-  background: url("../images/card-lot-01.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("../images/card-lot-01.jpg");
 }
 
 .card_type_book {
-  background: url("../images/card-lot-02.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("../images/card-lot-02.jpg");
 }
 
 .card_type_picture {
-  background: url("../images/card-lot-03.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("../images/card-lot-03.jpg");
 }
 
 .card__title {
